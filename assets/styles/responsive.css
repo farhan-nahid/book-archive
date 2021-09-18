@@ -1,0 +1,17 @@
+@media only screen and (max-width: 1250px) {
+  .container {
+    width: 95vw;
+  }
+}
+
+@media only screen and (max-width: 778px) {
+  #books__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #books__container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

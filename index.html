@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Archived</title>
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <!-- css link -->
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <link rel="stylesheet" href="./assets/styles/responsive.css" />
+  </head>
+  <body>
+
+    <!-- header css start -->
+
+    <header>
+      <img src="./assets/images/logo.png" alt="logo" />
+      <h3>Book Archive</h3>
+    </header>
+
+    <!-- header css end -->
+
+    <!-- website main content start -->
+
+    <main class="container">
+      <!-- input section start -->
+
+      <form class="books__search__container">
+        <input
+          type="text"
+          id="books__search__input"
+          placeholder="Enter a Name of Book..."
+          autocomplete="off"
+        />
+        <button type="submit" id="books__search__button">Search</button>
+      </form>
+
+      <!-- input section end -->
+
+      <!-- search result number section -->
+
+      <section>
+        <h5 id="search__result__number"></h5>
+        <h5 id="error"></h5>
+      </section>
+
+      <!-- search result number end -->
+
+      <section id="spinner">
+        <img src="./assets/images/spinner.gif" alt="spinner" />
+      </section>
+
+      <!-- books container start -->
+
+      <section id="books__container">
+        <div class="default__text">
+          <h1>Search Your Favorite Book</h1>
+          <blockquote>
+            A journey of thousand miles begins with a single step
+          </blockquote>
+        </div>
+      </section>
+
+      <!-- books container end -->
+    </main>
+
+    <!-- website main content end -->
+
+    <!-- font awesome kit -->
+
+    <script
+      src="https://kit.fontawesome.com/c58d26cb9d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- js link -->
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
