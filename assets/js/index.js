@@ -68,7 +68,7 @@ const displayBooks = (books) => {
     const imgUrl = `https://covers.openlibrary.org/b/id/${cover_i}-M.jpg`;
     const altImage = "http://via.placeholder.com/1080x1580";
     // create a card
-    const bookCard = document.createElement("card");
+    const bookCard = document.createElement("div");
     bookCard.setAttribute("class", "card");
     bookCard.innerHTML = `
         <div class="card__image">
